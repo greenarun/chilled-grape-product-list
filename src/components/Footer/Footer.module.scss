@@ -1,0 +1,76 @@
+@import '../../assets/theme/mixins';
+
+.footerContainer {
+    @include flexRow;
+    padding: 500px 75px 100px;
+
+    .leftFooter {
+        width: 400px;
+
+        .title {
+            @include poppinsBold;
+            text-transform: uppercase;
+            font-size: $font-36;
+            color: $color-white;
+            margin: 25px 0;
+        }
+
+        .description {
+            @include poppinsRegular;
+            font-size: $font-22;
+            color: $color-white;
+            line-height: 35px;
+        }
+    }
+
+    .rightFooter {
+        @include flexRow;
+        align-content: flex-end;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        width: 100%;
+        .linkSet {
+            
+            line-height: 28px;
+            .footerLinkTitle {
+                @include poppinsMedium;
+                font-size: $font-20; 
+                background: $primary-gradient;
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent; 
+                margin-bottom:40px;
+            }
+
+            ul { 
+                width: 231px;
+                li {
+                    margin:12px 0;
+                    a {
+                        font-size: $font-18;
+                        color: $default-text-color;
+                    }
+
+                    & .IconButton{
+                        background:$primary-gradient;
+                        height: 45px;
+                        width: 45px;
+                        border-radius: 8px;
+                        display: block;
+                        padding: 10px 0 0 10px;
+                    }
+                }
+            }
+
+            & .socialmedia {
+                @include flexRow;
+                flex-wrap: wrap;
+                width: 211px;
+                li {
+                    margin:0px 25px 32px 0;
+                }
+            }
+        }
+    }
+
+}

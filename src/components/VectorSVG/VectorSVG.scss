@@ -1,0 +1,56 @@
+@import '../../assets/theme/mixins';
+
+.leftHexagon {
+    @include HexagonStyling;
+    top: -178px;
+    left: -78px;
+    transform: rotate(336deg);
+}
+
+.rightHexagon {
+    @include HexagonStyling;
+    top: 220px;
+    right: -200px;
+    transform: rotate(230deg);
+}
+
+.leftHexagonSmall {
+    @include HexagonStyling;
+    top: 437px;
+    left: -121px;
+    transform: rotate(228deg);
+    opacity: 0.1;
+}
+
+.rightHexagonSmall {
+    @include HexagonStyling;
+    top: 500px;
+    right: 170px;
+    transform: rotate(184deg);
+    opacity: 0.1;
+    z-index: -2;
+}
+
+.middleHexagonSmall {
+    @include HexagonStyling; 
+    z-index: -1;
+    top: 170px;
+    left: 46%;
+    transform: rotate(180deg);
+    opacity: 0.1;
+}
+
+.floatingHexagon {
+    @include HexagonStyling; 
+    z-index: -1;  
+    top:180px;
+    right:0;
+
+}
+
+.footerHexagon {
+    @include HexagonStyling;
+    bottom: -100px;
+    left: -200px;
+    transform: rotate(222deg);
+}

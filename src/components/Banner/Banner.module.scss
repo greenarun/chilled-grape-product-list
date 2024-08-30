@@ -1,0 +1,17 @@
+@import '../../assets/theme/mixins';
+
+.bannerSection {
+    width: 550px;
+    margin: 185px auto;
+    .title{  
+        font-size: $font-64;
+        color: $default-text-color;
+        text-transform: uppercase;
+        @include poppinsBold;
+        line-height: 90px; 
+     }
+    .ReadMore{
+        margin:45px 0 0 0;
+    }
+}
+

@@ -1,0 +1,17 @@
+@import '../../assets/theme/mixins';
+
+.Button {
+    @include poppinsSemiBold;
+    background: $primary-gradient;
+    color: $color-white;
+    border: 0 none;
+    border-radius: 30px;
+    padding: 8px 50px; 
+    cursor: pointer; 
+    font-size: $font-16;
+
+    &.size22 {
+        font-size: $font-22;
+    }
+
+}

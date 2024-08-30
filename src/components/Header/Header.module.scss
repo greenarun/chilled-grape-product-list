@@ -1,0 +1,43 @@
+@import '../../assets/theme/mixins';
+
+.header{ 
+    @include flexRow;
+    padding:42px 71px;
+    
+    h1{ 
+        flex-grow: 1;
+        padding: 15px 0 0 0;
+        text-transform: uppercase;
+        a {
+            @include poppinsBold;
+            font-size: $font-36; 
+            color:$color-white;
+            text-decoration: none;
+        }
+        
+    } 
+    .menulinks{ 
+        @include flexRow;
+      li{ 
+        @include listStyleNone(); 
+        padding: 15px;
+        a {
+            @include poppinsSemiBold;
+            font-size: $font-16; 
+            color:$default-text-color;
+            margin:10px 0;
+            display: block;
+        }
+        &.login {
+            a {
+                color:$color-white;
+                display: inline-block;
+                margin:0; 
+            }
+          }
+      }
+
+      
+    }
+   
+}
