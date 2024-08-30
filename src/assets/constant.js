@@ -50,7 +50,10 @@ export const StaticText = {
             { label: 'Instagram', links: '/#instagram' },
             { label: 'Tiktok', links: '/#twitter' }]
         },
-    }
+        
+    },
+    Error: 'Something Went Wrong !',
+    NoData: 'No Record Found !'
 }
 
 export default StaticText
