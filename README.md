@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### libraries in Package.json
+### Libraries in Package.json
 
 React, React DOM, SASS, Axios
 
@@ -14,10 +14,10 @@ Components - Article, Banner, Button, Header, Footer, ProductList, VectorSVG
 Assets - images (one png image), theme (fonts, colors, mixins, variables) for SASS, constants (Static text), SocialIcons (Social media footer icon images)
 App - Vector background and Product page is included in App, 
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Screenshot
 
+<img width="1728" alt="Screenshot 2024-08-30 at 12 39 07 PM" src="https://github.com/user-attachments/assets/4772f8e3-1c1e-4199-9e3d-71ae37c571d1">
 
 
 ## Available Scripts
